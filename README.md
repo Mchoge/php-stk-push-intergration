@@ -1,13 +1,11 @@
+
 # STK Push Project using PHP
 
 This project demonstrates how to integrate the Safaricom M-Pesa Daraja API to perform STK Push payments. It enables initiating payments through the M-Pesa API using PHP. The application includes local development with XAMPP or online deployment with Heroku, making it versatile for both testing and live deployment.
 
----
-
 ## Prerequisites:
 You can use either **XAMPP** for local development or **Heroku** for online deployment. This guide will explain both options.
 
----
 
 ## Using XAMPP (Local Development)
 
@@ -65,9 +63,4 @@ These credentials are available on the [Safaricom Developer Portal](https://deve
 - **Passkey**: Your Paybill passkey.
 - **Callback URL**: The URL to which M-Pesa will send payment confirmation.
 
-You can store these details in a configuration file, or directly in the PHP code for testing.
-
----
-
-## File Structure
-
+You can store these details in a configuration file, or directly in the PHP code for tes
